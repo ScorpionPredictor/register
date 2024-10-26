@@ -1,4 +1,3 @@
-document.getElementById('register-button').addEventListener('click', async () => {
     const email = document.getElementById('email').value;
     const password = document.getElementById('password').value;
 
@@ -8,7 +7,7 @@ document.getElementById('register-button').addEventListener('click', async () =>
     }
 
     try {
-        const response = await fetch('/api/register', {
+        const response = await fetch('https://scorpionpredictor.github.io/v1/register.js', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json',
