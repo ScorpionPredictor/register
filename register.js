@@ -15,7 +15,6 @@ document.getElementById('register-button').addEventListener('click', async () =>
                 'Content-Type': 'application/json',
             },
             body: JSON.stringify({ email, password }),
-            res.send('GET request to the homepage');
         });
 
         if (response.ok) {
