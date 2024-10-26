@@ -17,7 +17,7 @@
 
         if (response.ok) {
             alert("Registration successful! You can now log in.");
-            window.location.href = '/'; // Redirect to the login page after successful registration
+            window.location.href = 'https://scorpionpredictor.github.io/login'; // Redirect to the login page after successful registration
         } else {
             const errorMessage = await response.text();
             alert(`Registration failed: ${errorMessage}`);
